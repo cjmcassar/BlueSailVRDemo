@@ -21,7 +21,8 @@ public class ObjFromFile : MonoBehaviour
             }else{
                 if(loadedObject != null)            
                     Destroy(loadedObject);
-                loadedObject = new OBJLoader().Load(objPath);
+                //loadedObject = new OBJLoader().Load(objPath);
+                // I need to come back to correct how to initiate the load function
                 error = string.Empty;
             }
         }
